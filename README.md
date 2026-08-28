@@ -19,22 +19,22 @@ User --> Ask question --> Frontend --> post Request --> FastAPI --> Embedding --
 ## Project Structure
 
 rag-assistant-project/
-    backend/                     
-            app/                *contain fast api files and logic*
-            tests
-            .env.example
-    document/
-            harry potter        *Raw Data*
-    Frontend/
-            app.py              *Streamlit file*
-            api_client.py       *function to make post request*
-            requirements.txt
-    notebooks/
-            content.md          *turn raw data into one markdown file*
-            rag_pipeline.ipynb  *pipeline --> reading,spliting,chunks,embedding,...*
-            requirements.txt
-    README.md
-    requirements.txt
+   - backend/                     
+           1. app/                *contain fast api files and logic*
+           2. tests
+           3. .env.example
+   - document/
+           1. harry potter        *Raw Data*
+   - Frontend/
+           1. app.py              *Streamlit file*
+           2. api_client.py       *function to make post request*
+           3. requirements.txt
+   - notebooks/
+           1. content.md          *turn raw data into one markdown file*
+           2. rag_pipeline.ipynb  *pipeline --> reading,spliting,chunks,embedding,...*
+           3. requirements.txt
+    - README.md
+    - requirements.txt
 
 ## Domain
 The project uses a corpus containing the seven Harry Potter books. The books are provided together in a single PDF document
