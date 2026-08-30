@@ -53,8 +53,8 @@ The PDF content is processed and divided into smaller semantic chunks while pres
 ## Setup
 
 1. Clone the Repository
-git clone https://github.com/Mohamed-Ramadan81/rag-assistant-app.git
-cd rag-assistant-app
+- git clone https://github.com/Mohamed-Ramadan81/rag-assistant-app.git
+- cd rag-assistant-app
 
 2. Create a virtual environment then activate it
 
