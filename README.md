@@ -59,6 +59,7 @@ cd rag-assistant-app
 2. Create a virtual environment then activate it
 
 - Python version= 3.11.0.
+- make sure u downloaded loacl ollama
 
 - python -m venv .venv
 - .venv\Scripts\activate
@@ -76,11 +77,13 @@ cd rag-assistant-app
 
 6. Start the FastAPI Backend
 From the project root start the FastAPI server using:
-*uvicorn backend.main:app --reload*
+> cd backend
+> uvicorn app.main:app --reload
 
 7. Start the Streamlit Frontend
 From the project root start the Streamlit app using:
-streamlit run frontend/app.py
+> cd frontend
+> streamlit run app.py
 
 The Streamlit application will open in your browser.
 before using streamlit app make sure the FastAPI server is running
